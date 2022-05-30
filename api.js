@@ -7,7 +7,7 @@ const jwt = require('jsonwebtoken');
 const dotenv = require('dotenv');
 const axios = require("axios")
 dotenv.config();
-a
+
 router.use((req, res, next) => {
 
     var auth = req.headers.authorization;
